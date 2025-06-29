@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cuestionario Redes"
+        android:textSize="24sp"
+        android:gravity="center"
+        />
+    <TextView
+        android:gravity="center"
+        android:id="@+id/timerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:00"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnHistorialView"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="bottom"
+            android:layout_height="match_parent"
+            android:text="Historial"
+            app:icon="@drawable/baseline_format_list_bulleted_24"
+            app:rippleColor="?attr/colorOnSecondary"
+            android:layout_margin="16dp"
+            />
+
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/startTimerButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="bottom"
+            android:layout_height="match_parent"
+            android:text="iniciar"
+            app:icon="@drawable/baseline_play_arrow_24"
+            app:rippleColor="?attr/colorOnSecondary"
+            android:layout_margin="16dp"
+
+            />
+
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:id="@+id/questions_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+    </ScrollView>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/submit_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="Enviar"
+        android:backgroundTint="#28a745"
+        app:icon="@drawable/baseline_send_24"
+        app:rippleColor="?attr/colorOnSecondary"
+        />
+</LinearLayout>

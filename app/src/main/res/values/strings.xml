@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Quiz2</string>
+
+    <string name="title">Cuestionario ISO/IEC 11801</string>
+    <string name="submit_button">Enviar Respuestas</string>
+    <string name="restart_button">Reiniciar Cuestionario</string>
+    <string name="true_option">Verdadero</string>
+    <string name="false_option">Falso</string>
+
+</resources>

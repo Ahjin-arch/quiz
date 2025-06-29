@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Historial de Cuestionarios"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnCleanHistorial"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="bottom"
+            android:layout_height="match_parent"
+            android:text="clean"
+            app:icon="@drawable/baseline_delete_outline_24"
+            app:rippleColor="?attr/colorOnSecondary"
+            android:layout_margin="16dp"
+
+            />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnCompartirHistorial"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="bottom"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:text="share"
+            app:icon="@drawable/baseline_share_24"
+            app:rippleColor="?attr/colorOnSecondary"
+            />
+
+
+    </LinearLayout>
+    <ListView
+        android:id="@+id/historialListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="8dp" />
+
+</LinearLayout>

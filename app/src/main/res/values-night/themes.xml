@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Quiz2" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary1</item> <!-- Azul claro -->
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant1</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary1</item>
+
+        <item name="colorSecondary">@color/colorSecondary1</item> <!-- Naranja suave -->
+        <item name="colorSecondaryVariant">@color/colorSecondaryVariant1</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary1</item>
+
+        <item name="colorOnSurface">@color/colorOnSurface1</item>
+        <item name="colorAccent">@color/colorAccent1</item> <!-- Verde pastel -->
+
+    </style>
+</resources>

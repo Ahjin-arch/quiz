@@ -1,0 +1,1702 @@
+[
+  {
+    "id": 1,
+    "type": "true_false",
+    "question": "Un firewall es únicamente un software que protege las computadoras.",
+    "answerBoolean": false,
+    "answerString": "",
+    "explanation": "Los firewalls pueden implementarse tanto en software como en hardware.",
+    "options": []
+  },
+  {
+    "id": 2,
+    "type": "true_false",
+    "question": "Los piratas informáticos utilizan la metodología de barrer la red enviando paquetes de datos de manera aleatoria.",
+    "answerBoolean": true,
+    "answerString": "",
+    "explanation": "El escaneo aleatorio de redes es una técnica común para identificar objetivos vulnerables.",
+    "options": []
+  },
+  {
+    "id": 3,
+    "type": "true_false",
+    "question": "Las computadoras permanentemente conectadas a Internet tienen menor riesgo de ser atacadas.",
+    "answerBoolean": false,
+    "answerString": "",
+    "explanation": "La exposición continua aumenta la superficie de ataque y el riesgo.",
+    "options": []
+  },
+  {
+    "id": 4,
+    "type": "true_false",
+    "question": "Un firewall actúa como un 'puente angosto' que filtra el tráfico entre la red interna y externa.",
+    "answerBoolean": true,
+    "answerString": "",
+    "explanation": "Funciona como punto de control único que inspecciona todo el tráfico.",
+    "options": []
+  },
+  {
+    "id": 5,
+    "type": "true_false",
+    "question": "Las reglas de firewall solo permiten autorizar o bloquear conexiones.",
+    "answerBoolean": false,
+    "answerString": "",
+    "explanation": "También pueden redireccionar tráfico y usar acciones 'drop' (bloqueo silencioso).",
+    "options": []
+  },
+  {
+    "id": 6,
+    "type": "true_false",
+    "question": "La política 'Todo lo que no es autorizado explícitamente está prohibido' es menos segura que permitir todo excepto lo prohibido.",
+    "answerBoolean": false,
+    "answerString": "",
+    "explanation": "Esta política (denegar por defecto) es más segura al minimizar riesgos.",
+    "options": []
+  },
+  {
+    "id": 7,
+    "type": "true_false",
+    "question": "Todos los sistemas operativos vienen con un firewall instalado por defecto.",
+    "answerBoolean": true,
+    "answerString": "",
+    "explanation": "Sistemas modernos incluyen firewalls básicos preinstalados.",
+    "options": []
+  },
+  {
+    "id": 8,
+    "type": "true_false",
+    "question": "Un firewall por software es más difícil de instalar que uno por hardware.",
+    "answerBoolean": false,
+    "answerString": "",
+    "explanation": "Los firewalls de software suelen tener procesos de instalación más simples.",
+    "options": []
+  },
+  {
+    "id": 9,
+    "type": "true_false",
+    "question": "Los routers normalmente vienen con firewall instalado.",
+    "answerBoolean": true,
+    "answerString": "",
+    "explanation": "La mayoría de routers domésticos y empresariales incluyen funciones básicas de firewall.",
+    "options": []
+  },
+  {
+    "id": 10,
+    "type": "true_false",
+    "question": "Es recomendable tener un firewall por hardware y uno por software activos simultáneamente.",
+    "answerBoolean": true,
+    "answerString": "",
+    "explanation": "Proporciona defensa en profundidad, aunque requiere configuración experta.",
+    "options": []
+  },
+  {
+    "id": 11,
+    "type": "true_false",
+    "question": "Un firewall por sí solo protege completamente contra virus, spam y spyware.",
+    "answerBoolean": false,
+    "answerString": "",
+    "explanation": "Los firewalls no protegen contra malware específico; se necesitan soluciones complementarias.",
+    "options": []
+  },
+  {
+    "id": 12,
+    "type": "true_false",
+    "question": "Windows Firewall permite establecer diferentes modos de protección para distintos tipos de redes.",
+    "answerBoolean": true,
+    "answerString": "",
+    "explanation": "Puede configurar perfiles independientes para redes públicas, privadas y de dominio.",
+    "options": []
+  },
+  {
+    "id": 13,
+    "type": "true_false",
+    "question": "El firewall de Windows solo puede aplicar un perfil a la vez.",
+    "answerBoolean": false,
+    "answerString": "",
+    "explanation": "Puede gestionar múltiples perfiles simultáneamente según el tipo de red conectada.",
+    "options": []
+  },
+  {
+    "id": 14,
+    "type": "true_false",
+    "question": "Los puertos son necesarios para que las aplicaciones se conecten correctamente a Internet.",
+    "answerBoolean": true,
+    "answerString": "",
+    "explanation": "Los puertos permiten la comunicación dirigida entre aplicaciones y servicios en red.",
+    "options": []
+  },
+  {
+    "id": 15,
+    "type": "true_false",
+    "question": "Un proxy cifra todo el tráfico que pasa a través de él.",
+    "answerBoolean": false,
+    "answerString": "",
+    "explanation": "Los proxies no cifran tráfico por defecto; las VPN sí proporcionan cifrado.",
+    "options": []
+  },
+  {
+    "id": 16,
+    "type": "multiple_choice",
+    "question": "¿Cuáles son las tres acciones que puede realizar un sistema de firewall según sus reglas?",
+    "answerBoolean": false,
+    "answerString": "b",
+    "explanation": "Las acciones básicas son: Allow (autorizar), Deny (bloquear con notificación) y Drop (bloquear silenciosamente sin respuesta).",
+    "options": [
+      "a) Autorizar, Bloquear, Monitorear",
+      "b) Allow, Deny, Drop",
+      "c) Permitir, Rechazar, Filtrar",
+      "d) Aceptar, Denegar, Redirigir"
+    ]
+  },
+  {
+    "id": 17,
+    "type": "multiple_choice",
+    "question": "¿Cuántos tipos básicos de firewall existen según el documento?",
+    "answerBoolean": false,
+    "answerString": "c",
+    "explanation": "Se clasifican en dos tipos fundamentales: firewall por software (programas) y firewall por hardware (dispositivos físicos).",
+    "options": [
+      "a) Tres tipos",
+      "b) Cuatro tipos",
+      "c) Dos tipos",
+      "d) Cinco tipos"
+    ]
+  },
+  {
+    "id": 18,
+    "type": "multiple_choice",
+    "question": "¿Cuáles son los tres tipos de redes que cubre el Firewall de Windows?",
+    "answerBoolean": false,
+    "answerString": "b",
+    "explanation": "Windows Firewall permite configurar perfiles independientes para: redes de dominio (empresariales), públicas (ej. cafés) y privadas (hogar/oficina).",
+    "options": [
+      "a) Red Local, Red Externa, Red Mixta",
+      "b) Red Dominio, Red Pública, Red doméstica o de trabajo",
+      "c) Red Privada, Red Pública, Red Empresarial",
+      "d) Red Interna, Red Externa, Red DMZ"
+    ]
+  },
+  {
+    "id": 19,
+    "type": "multiple_choice",
+    "question": "¿Qué significa PAT en el contexto de NAT?",
+    "answerBoolean": false,
+    "answerString": "b",
+    "explanation": "PAT (Port Address Translation) es una variante de NAT que traduce tanto direcciones IP como puertos para permitir múltiples dispositivos compartir una IP pública.",
+    "options": [
+      "a) Private Address Translation",
+      "b) Port Address Translation",
+      "c) Public Access Translation",
+      "d) Packet Address Translation"
+    ]
+  },
+  {
+    "id": 20,
+    "type": "multiple_choice",
+    "question": "¿Cuántas direcciones IPv4 únicas permite el espacio de 32 bits?",
+    "answerBoolean": false,
+    "answerString": "a",
+    "explanation": "El espacio de direccionamiento IPv4 de 32 bits permite 2^32 direcciones, equivalente a 4.294.967.296 direcciones únicas.",
+    "options": [
+      "a) 4.294.967.296",
+      "b) 2.147.483.648",
+      "c) 8.589.934.592",
+      "d) 1.073.741.824"
+    ]
+  },
+  {
+    "id": 21,
+    "type": "multiple_choice",
+    "question": "¿Cuántos puertos están disponibles en los protocolos TCP y UDP?",
+    "answerBoolean": false,
+    "answerString": "b",
+    "explanation": "TCP y UDP utilizan puertos de 16 bits, permitiendo 65.536 puertos (0-65535).",
+    "options": [
+      "a) 32.768",
+      "b) 65.536",
+      "c) 1.024",
+      "d) 8.192"
+    ]
+  },
+  {
+    "id": 22,
+    "type": "multiple_choice",
+    "question": "¿Cuál es la principal diferencia entre un proxy y una VPN?",
+    "answerBoolean": false,
+    "answerString": "b",
+    "explanation": "Las VPN cifran todo el tráfico de red (túneles seguros), mientras los proxies solo reenvían tráfico sin cifrado.",
+    "options": [
+      "a) El proxy es más rápido",
+      "b) La VPN cifra todo el tráfico, el proxy no",
+      "c) El proxy funciona solo con navegadores",
+      "d) La VPN es gratuita, el proxy no"
+    ]
+  },
+  {
+    "id": 23,
+    "type": "multiple_choice",
+    "question": "En NAT estática, ¿cómo funciona la traducción de direcciones?",
+    "answerBoolean": false,
+    "answerString": "c",
+    "explanation": "Cada dispositivo interno tiene asignada una IP pública fija específica para todas sus comunicaciones externas.",
+    "options": [
+      "a) Una IP privada se traduce en diferentes IPs públicas",
+      "b) Múltiples IPs privadas se traducen en una IP pública",
+      "c) Una IP privada se traduce siempre en la misma IP pública",
+      "d) Las IPs se traducen aleatoriamente"
+    ]
+  },
+  {
+    "id": 24,
+    "type": "multiple_choice",
+    "question": "¿Qué tipo de NAT es más común en los hogares?",
+    "answerBoolean": false,
+    "answerString": "c",
+    "explanation": "PAT (NAT con sobrecarga) permite que múltiples dispositivos compartan una IP pública usando diferentes puertos.",
+    "options": [
+      "a) NAT Estática",
+      "b) NAT Dinámica",
+      "c) NAT con Sobrecarga (PAT)",
+      "d) NAT de Solapamiento"
+    ]
+  },
+  {
+    "id": 25,
+    "type": "multiple_choice",
+    "question": "¿Qué hace un servidor proxy con tu dirección IP?",
+    "answerBoolean": false,
+    "answerString": "b",
+    "explanation": "El proxy actúa como intermediario, reemplazando tu IP real por la suya en las comunicaciones con servidores externos.",
+    "options": [
+      "a) La expone directamente al servidor web",
+      "b) La reemplaza con la suya propia",
+      "c) La cifra antes de enviarla",
+      "d) La duplica para mayor seguridad"
+    ]
+  },
+  {
+    "id": 26,
+    "type": "multiple_choice",
+    "question": "¿Cuál es una desventaja importante de usar NAT?",
+    "answerBoolean": false,
+    "answerString": "c",
+    "explanation": "Algunos protocolos (como IPsec o aplicaciones P2P) tienen problemas de compatibilidad con NAT.",
+    "options": [
+      "a) Ahorra direcciones IPv4",
+      "b) Proporciona seguridad adicional",
+      "c) No todas las aplicaciones y protocolos son compatibles",
+      "d) Facilita el mantenimiento de la red"
+    ]
+  },
+  {
+    "id": 27,
+    "type": "multiple_choice",
+    "question": "¿Qué elemento utilizan los routers en NAT con sobrecarga para diferenciar las conexiones?",
+    "answerBoolean": false,
+    "answerString": "b",
+    "explanation": "Los routers asignan puertos únicos a cada conexión para gestionar múltiples dispositivos con una sola IP pública.",
+    "options": [
+      "a) Direcciones MAC",
+      "b) Puertos",
+      "c) Protocolos",
+      "d) Timestamps"
+    ]
+  },
+  {
+    "id": 28,
+    "type": "multiple_choice",
+    "question": "¿Cuál de estas NO es una ventaja de la NAT?",
+    "answerBoolean": false,
+    "answerString": "c",
+    "explanation": "La compatibilidad limitada con ciertos protocolos es una desventaja, no una ventaja de NAT.",
+    "options": [
+      "a) Ahorro de direcciones IPv4",
+      "b) Mayor seguridad",
+      "c) Compatibilidad universal con aplicaciones",
+      "d) Facilidad de mantenimiento"
+    ]
+  },
+  {
+    "id": 29,
+    "type": "multiple_choice",
+    "question": "¿Qué servicio proxy gratuito se menciona que pertenece a Hide.me?",
+    "answerBoolean": false,
+    "answerString": "b",
+    "explanation": "Hide.me ofrece un proxy web gratuito como demostración de su servicio VPN premium.",
+    "options": [
+      "a) Un proxy que cifra datos",
+      "b) Un proxy que se utiliza como demostración de sus servicios de pago",
+      "c) Un proxy exclusivo para empresas",
+      "d) Un proxy que no bloquea cookies"
+    ]
+  }, {
+  "id": 30,
+  "type": "multiple_choice",
+  "question": "¿En qué menú de Windows 10 se configura un servidor proxy?",
+  "answerBoolean": false,
+  "answerString": "b",
+  "explanation": "La configuración de proxy se encuentra en Configuración > Red e Internet > Proxy.",
+  "options": [
+    "a) Sistema y Seguridad",
+    "b) Red e Internet",
+    "c) Privacidad y Seguridad",
+    "d) Cuentas de Usuario"
+  ]
+},
+  {
+    "id": 31,
+    "type": "multiple_choice",
+    "question": "¿Cuál es el nombre alternativo para 'Desktop firewall'?",
+    "answerBoolean": false,
+    "answerString": "b",
+    "explanation": "'Desktop firewall' es otro nombre para firewall de software instalado en equipos individuales.",
+    "options": [
+      "a) Hardware firewall",
+      "b) Software firewall",
+      "c) Network firewall",
+      "d) System firewall"
+    ]
+  },
+  {
+    "id": 32,
+    "type": "multiple_choice",
+    "question": "¿Qué debe marcarse como 'remover' en las opciones de proxy para mayor privacidad?",
+    "answerBoolean": false,
+    "answerString": "c",
+    "explanation": "Para máxima privacidad, se recomienda deshabilitar cookies y bloquear objetos/scripts que puedan rastrear actividad.",
+    "options": [
+      "a) Solo cookies",
+      "b) Solo scripts",
+      "c) Objetos y scripts, y deshabilitar cookies",
+      "d) Solo objetos"
+    ]
+  },
+  {
+    "id": 33,
+    "type": "multiple_choice",
+    "question": "¿Cuál es una característica distintiva de VPNBook como servicio proxy?",
+    "answerBoolean": false,
+    "answerString": "b",
+    "explanation": "VPNBook bloquea automáticamente ciertos scripts sin opción de desbloqueo para mejorar seguridad.",
+    "options": [
+      "a) Permite desbloquear todos los scripts",
+      "b) Bloquea automáticamente algunos scripts sin opción de desbloqueo",
+      "c) Es de pago",
+      "d) Solo funciona en ciertos países"
+    ]
+  },
+  {
+    "id": 34,
+    "type": "multiple_choice",
+    "question": "¿Qué sucede en NAT de solapamiento?",
+    "answerBoolean": false,
+    "answerString": "c",
+    "explanation": "El router reemplaza direcciones IP privadas que coinciden con IPs públicas externas para evitar conflictos.",
+    "options": [
+      "a) Se duplican las direcciones IP",
+      "b) Se cifran las direcciones IP",
+      "c) El router reemplaza una dirección IP privada que conflicta con una IP pública",
+      "d) Se bloquean las conexiones"
+    ]
+  },
+  {
+    "id": 35,
+    "type": "multiple_choice",
+    "question": "¿Por qué surgió la necesidad de NAT?",
+    "answerBoolean": false,
+    "answerString": "c",
+    "explanation": "NAT surgió como solución al agotamiento de direcciones IPv4, permitiendo múltiples dispositivos compartir una IP pública.",
+    "options": [
+      "a) Para mejorar la seguridad de las redes",
+      "b) Para acelerar las conexiones",
+      "c) Porque las direcciones IPv4 se estaban agotando",
+      "d) Para simplificar la configuración de red"
+    ]
+  },
+  {
+    "id": 36,
+    "type": "true_false",
+    "question": "En NAT dinámica, cada dirección IP privada siempre usa la misma dirección IP pública.",
+    "answerBoolean": false,
+    "answerString": "",
+    "explanation": "En NAT dinámica, las IPs públicas se asignan de un grupo disponible y pueden cambiar entre conexiones.",
+    "options": []
+  },
+  {
+    "id": 37,
+    "type": "true_false",
+    "question": "Un firewall comercial funciona igual que uno gratuito pero incluye protecciones extra.",
+    "answerBoolean": true,
+    "answerString": "",
+    "explanation": "Las versiones comerciales añaden funciones avanzadas como detección de intrusos o filtrado de aplicaciones.",
+    "options": []
+  },
+  {
+    "id": 38,
+    "type": "true_false",
+    "question": "La diferencia de precio entre un router con firewall y sin firewall es muy grande.",
+    "answerBoolean": false,
+    "answerString": "",
+    "explanation": "La mayoría de routers modernos incluyen firewall básico sin incremento significativo de costo.",
+    "options": []
+  },
+  {
+    "id": 39,
+    "type": "true_false",
+    "question": "Un firewall puede ser tanto un programa como un equipo físico.",
+    "answerBoolean": true,
+    "answerString": "",
+    "explanation": "Existen firewalls de software (programas) y de hardware (dispositivos físicos dedicados).",
+    "options": []
+  },
+  {
+    "id": 40,
+    "type": "true_false",
+    "question": "Los worms se esparcen de computadora en computadora vía internet.",
+    "answerBoolean": true,
+    "answerString": "",
+    "explanation": "Los worms son malware autopropagable que explotan vulnerabilidades de red para infectar sistemas.",
+    "options": []
+  },
+  {
+    "id": 41,
+    "type": "true_false",
+    "question": "Conectarse a Internet sin firewall garantiza ser infectado inmediatamente.",
+    "answerBoolean": false,
+    "answerString": "",
+    "explanation": "Aumenta significativamente el riesgo, pero no garantiza infección inmediata.",
+    "options": []
+  },
+  {
+    "id": 42,
+    "type": "true_false",
+    "question": "Windows Firewall requiere pago adicional por software de terceros.",
+    "answerBoolean": false,
+    "answerString": "",
+    "explanation": "Viene incluido gratuitamente en el sistema operativo Windows.",
+    "options": []
+  },
+  {
+    "id": 43,
+    "type": "true_false",
+    "question": "Es posible crear reglas personalizadas en el Firewall de Windows.",
+    "answerBoolean": true,
+    "answerString": "",
+    "explanation": "Permite configurar reglas avanzadas para aplicaciones, puertos y protocolos específicos.",
+    "options": []
+  },
+  {
+    "id": 44,
+    "type": "true_false",
+    "question": "Los proxys web que muestran demasiada publicidad son más confiables.",
+    "answerBoolean": false,
+    "answerString": "",
+    "explanation": "El exceso de publicidad suele indicar servicios de baja calidad o potencialmente maliciosos.",
+    "options": []
+  },
+  {
+    "id": 45,
+    "type": "true_false",
+    "question": "NAT es una solución definitiva al problema de escasez de direcciones IP.",
+    "answerBoolean": false,
+    "answerString": "",
+    "explanation": "Es una solución temporal; IPv6 es la solución a largo plazo para el agotamiento de direcciones.",
+    "options": []
+  },
+  {
+    "id": 46,
+    "type": "true_false",
+    "question": "En NAT con sobrecarga, múltiples direcciones IP privadas pueden salir a Internet a través de una misma IP pública.",
+    "answerBoolean": true,
+    "answerString": "",
+    "explanation": "PAT (Port Address Translation) permite compartir una IP pública usando puertos diferentes.",
+    "options": []
+  },
+  {
+    "id": 47,
+    "type": "true_false",
+    "question": "Los routers en NAT deben recalcular el checksum de cada paquete que modifican.",
+    "answerBoolean": true,
+    "answerString": "",
+    "explanation": "Al modificar direcciones IP o puertos, el checksum debe recalcularse para mantener la integridad del paquete.",
+    "options": []
+  },
+  {
+    "id": 48,
+    "type": "true_false",
+    "question": "Un proxy solo oculta tu dirección IP pero no elimina otros identificadores.",
+    "answerBoolean": true,
+    "answerString": "",
+    "explanation": "Cookies, huella digital del navegador y otros rastreadores pueden aún identificar al usuario.",
+    "options": []
+  },
+  {
+    "id": 49,
+    "type": "true_false",
+    "question": "HideMy.name ofrece listas de proxys gratuitas con diferentes niveles de privacidad.",
+    "answerBoolean": true,
+    "answerString": "",
+    "explanation": "Proporciona opciones de proxy gratuitos clasificados por anonimato (transparente, anónimo, élite).",
+    "options": []
+  },
+  {
+    "id": 50,
+    "type": "true_false",
+    "question": "Para configurar un proxy en Windows 10 se debe acceder al Panel de Control.",
+    "answerBoolean": false,
+    "answerString": "",
+    "explanation": "La configuración moderna está en la aplicación Configuración > Red e Internet > Proxy.",
+    "options": []
+  },
+  {
+    "id": 51,
+    "type": "true_false",
+    "question": "El firewall de Windows puede aplicar diferentes configuraciones según el tipo de red desde donde proviene la conexión.",
+    "answerBoolean": true,
+    "answerString": "",
+    "explanation": "Permite configurar perfiles independientes para redes de dominio, públicas y privadas.",
+    "options": []
+  },
+  {
+    "id": 52,
+    "type": "true_false",
+    "question": "Los hackers buscan 'agujeros' de seguridad para acceder a los datos de las computadoras.",
+    "answerBoolean": true,
+    "answerString": "",
+    "explanation": "Explotan vulnerabilidades en sistemas sin protección adecuada.",
+    "options": []
+  },
+  {
+    "id": 53,
+    "type": "true_false",
+    "question": "Un firewall por hardware es más fácil de configurar que uno por software.",
+    "answerBoolean": false,
+    "answerString": "",
+    "explanation": "Requiere conocimientos avanzados de redes para configurar correctamente.",
+    "options": []
+  },
+  {
+    "id": 54,
+    "type": "true_false",
+    "question": "La configuración de un firewall por hardware se realiza normalmente a través del navegador web.",
+    "answerBoolean": true,
+    "answerString": "",
+    "explanation": "Se accede mediante interfaz web (ej: 192.168.1.1) para su gestión.",
+    "options": []
+  },
+  {
+    "id": 55,
+    "type": "true_false",
+    "question": "Los firewall gratuitos solo son para uso comercial.",
+    "answerBoolean": false,
+    "answerString": "",
+    "explanation": "Existen versiones gratuitas para uso personal y doméstico.",
+    "options": []
+  },
+  {
+    "id": 56,
+    "type": "true_false",
+    "question": "El Sistema Operativo alerta cuando no hay ningún firewall en funcionamiento.",
+    "answerBoolean": true,
+    "answerString": "",
+    "explanation": "Windows muestra notificaciones de seguridad cuando el firewall está desactivado.",
+    "options": []
+  },
+  {
+    "id": 57,
+    "type": "true_false",
+    "question": "En las reglas de firewall, 'Drop' significa bloquear una conexión e informar al emisor.",
+    "answerBoolean": false,
+    "answerString": "",
+    "explanation": "'Drop' bloquea silenciosamente sin enviar respuesta al emisor.",
+    "options": []
+  },
+  {
+    "id": 58,
+    "type": "true_false",
+    "question": "Una red empresarial no necesita firewall porque ya está protegida por el ISP.",
+    "answerBoolean": false,
+    "answerString": "",
+    "explanation": "El firewall del ISP no sustituye la necesidad de protección local adicional.",
+    "options": []
+  },
+  {
+    "id": 59,
+    "type": "true_false",
+    "question": "Windows Firewall permite definir rangos de puertos específicos.",
+    "answerBoolean": true,
+    "answerString": "",
+    "explanation": "Se pueden configurar reglas para intervalos de puertos (ej: 8000-8080).",
+    "options": []
+  },
+  {
+    "id": 60,
+    "type": "true_false",
+    "question": "Las conexiones IPsec son compatibles con las nuevas versiones del Firewall de Windows.",
+    "answerBoolean": true,
+    "answerString": "",
+    "explanation": "Soporta reglas avanzadas para tráfico cifrado con IPsec.",
+    "options": []
+  },
+  {
+    "id": 61,
+    "type": "true_false",
+    "question": "Un proxy puede ayudar a acceder a contenido bloqueado geográficamente.",
+    "answerBoolean": true,
+    "answerString": "",
+    "explanation": "Al enrutar el tráfico a través de servidores en otros países, permite acceder a contenido restringido por ubicación geográfica.",
+    "options": []
+  },
+  {
+    "id": 62,
+    "type": "true_false",
+    "question": "Los servidores proxy siempre eliminan todas las cookies de navegación.",
+    "answerBoolean": false,
+    "answerString": "",
+    "explanation": "El manejo de cookies varía por proxy; algunos las bloquean, otros permiten selectivamente.",
+    "options": []
+  },
+  {
+    "id": 63,
+    "type": "true_false",
+    "question": "NAT permite que las máquinas de una red privada sean visibles desde Internet.",
+    "answerBoolean": false,
+    "answerString": "",
+    "explanation": "NAT oculta las IPs privadas, haciendo que solo la IP pública del router sea visible externamente.",
+    "options": []
+  },
+  {
+    "id": 64,
+    "type": "true_false",
+    "question": "En NAT dinámica, el router tiene asignadas varias direcciones IP públicas.",
+    "answerBoolean": true,
+    "answerString": "",
+    "explanation": "Utiliza un grupo de IPs públicas que asigna dinámicamente a dispositivos internos.",
+    "options": []
+  },
+  {
+    "id": 65,
+    "type": "true_false",
+    "question": "Los protocolos TCP y UDP utilizan el mismo rango de puertos.",
+    "answerBoolean": true,
+    "answerString": "",
+    "explanation": "Ambos protocolos usan puertos de 0 a 65535, aunque son espacios de numeración independientes.",
+    "options": []
+  },
+  {
+    "id": 66,
+    "type": "multiple_choice",
+    "question": "¿Cuál es la principal amenaza para computadoras permanentemente conectadas a Internet?",
+    "answerBoolean": false,
+    "answerString": "c",
+    "explanation": "La exposición continua permite ataques automatizados (bots, escaneos) que buscan vulnerabilidades.",
+    "options": [
+      "a) Consumo excesivo de energía",
+      "b) Deterioro del hardware",
+      "c) Ataques de piratas informáticos sin supervisión",
+      "d) Sobrecarga de la red"
+    ]
+  },
+  {
+    "id": 67,
+    "type": "multiple_choice",
+    "question": "¿Qué significa 'cortafuego' en el contexto de redes?",
+    "answerBoolean": false,
+    "answerString": "b",
+    "explanation": "Es la traducción literal de 'firewall' al español, refiriéndose a sistemas que protegen redes.",
+    "options": [
+      "a) Un sistema de refrigeración para servidores",
+      "b) La traducción al español de 'firewall'",
+      "c) Un protocolo de red",
+      "d) Un tipo de cable de red"
+    ]
+  },
+  {
+    "id": 68,
+    "type": "multiple_choice",
+    "question": "¿Cuál es la función principal de un firewall?",
+    "answerBoolean": false,
+    "answerString": "b",
+    "explanation": "Su función esencial es inspeccionar y filtrar paquetes de datos según reglas de seguridad predefinidas.",
+    "options": [
+      "a) Acelerar la conexión a Internet",
+      "b) Filtrar paquetes de datos entre redes",
+      "c) Comprimir datos de red",
+      "d) Gestionar direcciones IP"
+    ]
+  },
+  {
+    "id": 69,
+    "type": "multiple_choice",
+    "question": "¿Qué política de seguridad es más restrictiva?",
+    "answerBoolean": false,
+    "answerString": "c",
+    "explanation": "Esta política (denegar por defecto) minimiza riesgos al solo permitir conexiones explícitamente autorizadas.",
+    "options": [
+      "a) 'Impedir cualquier comunicación explícitamente prohibida'",
+      "b) 'Permitir todo excepto lo bloqueado'",
+      "c) 'Todo lo que no es autorizado explícitamente está prohibido'",
+      "d) 'Autorizar por defecto y bloquear cuando sea necesario'"
+    ]
+  },
+  {
+    "id": 70,
+    "type": "multiple_choice",
+    "question": "¿Cuál NO es una característica de un firewall por software?",
+    "answerBoolean": false,
+    "answerString": "c",
+    "explanation": "Los firewalls de software funcionan en equipos estándar sin requerir hardware especializado.",
+    "options": [
+      "a) Incluido con el sistema operativo",
+      "b) Fácil integración con otros productos de seguridad",
+      "c) Requiere hardware especial para funcionar",
+      "d) Simple de instalar"
+    ]
+  },
+  {
+    "id": 71,
+    "type": "multiple_choice",
+    "question": "¿Dónde se instala normalmente un firewall por hardware?",
+    "answerBoolean": false,
+    "answerString": "b",
+    "explanation": "Se implementa en dispositivos de red como routers o equipos dedicados que gestionan el tráfico entre redes.",
+    "options": [
+      "a) En cada computadora individual",
+      "b) En los routers de acceso a Internet",
+      "c) En los servidores web",
+      "d) En los cables de red"
+    ]
+  },
+  {
+    "id": 72,
+    "type": "multiple_choice",
+    "question": "¿Cuál de estos NO es un tipo de malware que un firewall puede ayudar a bloquear?",
+    "answerBoolean": false,
+    "answerString": "c",
+    "explanation": "Los firewalls filtran tráfico malicioso pero no detectan contenido ilegal como archivos pirateados.",
+    "options": [
+      "a) Worms",
+      "b) Ataques de hackers",
+      "c) Archivos de música pirateados",
+      "d) Tráfico de salida malicioso"
+    ]
+  },
+  {
+    "id": 73,
+    "type": "multiple_choice",
+    "question": "¿A través de qué ruta se accede al Firewall de Windows?",
+    "answerBoolean": false,
+    "answerString": "b",
+    "explanation": "La ruta clásica es: Panel de Control > Sistema y seguridad > Firewall de Windows.",
+    "options": [
+      "a) Panel de Control → Redes → Firewall",
+      "b) Panel de Control → Sistema y seguridad → Firewall de Windows",
+      "c) Configuración → Seguridad → Firewall",
+      "d) Panel de Control → Programas → Firewall"
+    ]
+  },
+  {
+    "id": 74,
+    "type": "multiple_choice",
+    "question": "¿Cuál es una ventaja de poder usar múltiples perfiles de firewall simultáneamente?",
+    "answerBoolean": false,
+    "answerString": "b",
+    "explanation": "Permite tener configuraciones de seguridad diferenciadas para redes confiables (hogar) y no confiables (públicas).",
+    "options": [
+      "a) Consume menos recursos del sistema",
+      "b) Permite aplicar diferentes configuraciones según el tipo de red",
+      "c) Acelera la conexión a Internet",
+      "d) Reduce el uso de ancho de banda"
+    ]
+  },
+  {
+    "id": 75,
+    "type": "multiple_choice",
+    "question": "¿Qué se debe hacer para abrir puertos específicos en Windows Firewall?",
+    "answerBoolean": false,
+    "answerString": "b",
+    "explanation": "Se crean reglas personalizadas en 'Configuración avanzada' para autorizar tráfico en puertos específicos.",
+    "options": [
+      "a) Desinstalar el firewall",
+      "b) Crear una nueva regla de entrada o salida",
+      "c) Reiniciar el sistema",
+      "d) Cambiar la configuración del router"
+    ]
+  },
+  {
+    "id": 76,
+    "type": "multiple_choice",
+    "question": "¿Cuál es la diferencia principal entre permitir acceso total a una aplicación vs. abrir solo puertos específicos?",
+    "answerBoolean": false,
+    "answerString": "b",
+    "explanation": "Limitar a puertos específicos reduce la superficie de ataque, mientras el acceso total aumenta riesgos.",
+    "options": [
+      "a) No hay diferencia práctica",
+      "b) Abrir solo puertos específicos es la opción más segura",
+      "c) El acceso total es más rápido",
+      "d) Los puertos específicos consumen más recursos"
+    ]
+  },
+  {
+    "id": 77,
+    "type": "multiple_choice",
+    "question": "¿Qué tipo de aplicaciones requieren comúnmente abrir puertos específicos?",
+    "answerBoolean": false,
+    "answerString": "c",
+    "explanation": "Juegos multijugador, torrents y VoIP necesitan puertos abiertos para conexiones entrantes.",
+    "options": [
+      "a) Procesadores de texto",
+      "b) Navegadores web básicos",
+      "c) Juegos online y programas P2P",
+      "d) Calculadoras"
+    ]
+  },
+  {
+    "id": 78,
+    "type": "multiple_choice",
+    "question": "¿Cuál es la función principal de un servidor proxy?",
+    "answerBoolean": false,
+    "answerString": "b",
+    "explanation": "Actúa como intermediario que recibe solicitudes del cliente y las reenvía a servidores externos.",
+    "options": [
+      "a) Acelerar la conexión a Internet",
+      "b) Actuar como intermediario entre cliente y servidor",
+      "c) Comprimir archivos de descarga",
+      "d) Gestionar contraseñas"
+    ]
+  },
+  {
+    "id": 79,
+    "type": "multiple_choice",
+    "question": "¿Qué información NO conoce la página web visitada cuando usas un proxy?",
+    "answerBoolean": false,
+    "answerString": "b",
+    "explanation": "El proxy oculta tu IP real, mostrando solo su propia dirección al sitio destino.",
+    "options": [
+      "a) El navegador que utilizas",
+      "b) Tu dirección IP real",
+      "c) El idioma de tu navegador",
+      "d) La resolución de tu pantalla"
+    ]
+  },
+  {
+    "id": 80,
+    "type": "multiple_choice",
+    "question": "¿Por qué es importante desconfiar de proxys gratuitos con mucha publicidad?",
+    "answerBoolean": false,
+    "answerString": "c",
+    "explanation": "Pueden inyectar malware, rastrear actividad o vender datos personales, comprometiendo el anonimato.",
+    "options": [
+      "a) Son más lentos",
+      "b) Consumen más ancho de banda",
+      "c) Pueden comprometer el anonimato que se supone brindan",
+      "d) No funcionan con todos los navegadores"
+    ]
+  },
+  {
+    "id": 81,
+    "type": "multiple_choice",
+    "question": "¿Cuál es la principal limitación de los proxys en comparación con las VPN?",
+    "answerBoolean": false,
+    "answerString": "b",
+    "explanation": "Las VPN cifran todo el tráfico de red, mientras los proxies solo reenvían datos sin protección adicional.",
+    "options": [
+      "a) Son más caros",
+      "b) No cifran el tráfico de datos",
+      "c) Solo funcionan con ciertos navegadores",
+      "d) Requieren software especial"
+    ]
+  },
+  {
+    "id": 82,
+    "type": "multiple_choice",
+    "question": "¿Qué servicio proxy se describe como 'uno de los mejores proxys gratuitos'?",
+    "answerBoolean": false,
+    "answerString": "c",
+    "explanation": "VPNBook es destacado como un proxy gratuito de calidad con múltiples ubicaciones de servidores.",
+    "options": [
+      "a) Hide.me",
+      "b) ProxyFree",
+      "c) VPNBook",
+      "d) FreeProxy"
+    ]
+  },
+  {
+    "id": 83,
+    "type": "multiple_choice",
+    "question": "¿Cuál es una desventaja de VPNBook?",
+    "answerBoolean": false,
+    "answerString": "b",
+    "explanation": "Bloquea automáticamente ciertos scripts sin dar opción al usuario para desbloquearlos.",
+    "options": [
+      "a) Es de pago",
+      "b) Bloquea automáticamente algunos scripts sin opción de desbloqueo",
+      "c) Solo funciona en ciertos países",
+      "d) Requiere registro obligatorio"
+    ]
+  },
+  {
+    "id": 84,
+    "type": "multiple_choice",
+    "question": "¿Qué significa NAT?",
+    "answerBoolean": false,
+    "answerString": "b",
+    "explanation": "Network Address Translation (Traducción de Direcciones de Red).",
+    "options": [
+      "a) Network Access Translation",
+      "b) Network Address Translation",
+      "c) Network Administrative Tool",
+      "d) Network Application Transfer"
+    ]
+  },
+  {
+    "id": 85,
+    "type": "multiple_choice",
+    "question": "¿Cuál fue el problema original que motivó la creación de NAT?",
+    "answerBoolean": false,
+    "answerString": "c",
+    "explanation": "El rápido crecimiento de Internet agotó las direcciones IPv4 disponibles, requiriendo soluciones como NAT.",
+    "options": [
+      "a) La velocidad de Internet era muy lenta",
+      "b) Las redes eran inseguras",
+      "c) Internet se expandió más de lo previsto y las direcciones IP se agotaban",
+      "d) Los routers eran muy caros"
+    ]
+  },
+  {
+    "id": 86,
+    "type": "true_false",
+    "question": "Internet fue diseñado originalmente para ser una red tan extensa como la actual.",
+    "answerBoolean": false,
+    "answerString": "",
+    "explanation": "ARPANET se diseñó para conectar pocas instituciones académicas/militares, no la escala global actual.",
+    "options": []
+  },
+  {
+    "id": 87,
+    "type": "true_false",
+    "question": "Las direcciones IP privadas se conectan a Internet usando una única dirección IP pública.",
+    "answerBoolean": true,
+    "answerString": "",
+    "explanation": "NAT permite que múltiples dispositivos con IPs privadas compartan una IP pública para acceder a Internet.",
+    "options": []
+  },
+  {
+    "id": 88,
+    "type": "true_false",
+    "question": "En NAT estática, un host dentro de la red puede ser visible desde Internet.",
+    "answerBoolean": true,
+    "answerString": "",
+    "explanation": "La IP pública fija asignada hace que el dispositivo sea accesible desde Internet si los puertos están abiertos.",
+    "options": []
+  },
+  {
+    "id": 89,
+    "type": "true_false",
+    "question": "Una NAT dinámica aumenta la seguridad porque las direcciones IP públicas van cambiando.",
+    "answerBoolean": true,
+    "answerString": "",
+    "explanation": "La rotación de IPs públicas dificulta el rastreo continuo de dispositivos específicos.",
+    "options": []
+  },
+  {
+    "id": 90,
+    "type": "true_false",
+    "question": "En NAT con sobrecarga, solo se puede conectar una máquina a Internet a la vez.",
+    "answerBoolean": false,
+    "answerString": "",
+    "explanation": "PAT permite conexiones simultáneas de múltiples dispositivos usando una sola IP pública con diferentes puertos.",
+    "options": []
+  },
+  {
+    "id": 91,
+    "type": "true_false",
+    "question": "El router en NAT guarda asociaciones entre IP privada, puerto de origen, IP pública y puerto aleatorio.",
+    "answerBoolean": true,
+    "answerString": "",
+    "explanation": "El router mantiene una tabla de traducción con estos datos para gestionar las conexiones.",
+    "options": []
+  },
+  {
+    "id": 92,
+    "type": "true_false",
+    "question": "NAT resuelve completamente el problema de escasez de direcciones IPv4.",
+    "answerBoolean": false,
+    "answerString": "",
+    "explanation": "Es una solución temporal que retrasó el agotamiento, pero no reemplaza la necesidad de IPv6.",
+    "options": []
+  },
+  {
+    "id": 93,
+    "type": "true_false",
+    "question": "Una ventaja de NAT es que facilita el mantenimiento de la red.",
+    "answerBoolean": true,
+    "answerString": "",
+    "explanation": "Simplifica la reasignación de direcciones y añade una capa básica de ocultación.",
+    "options": []
+  },
+  {
+    "id": 94,
+    "type": "true_false",
+    "question": "NAT requiere mayor potencia de computación en el router.",
+    "answerBoolean": true,
+    "answerString": "",
+    "explanation": "Debe recalcular checksums en los paquetes y gestionar tablas de traducción en tiempo real.",
+    "options": []
+  },
+  {
+    "id": 95,
+    "type": "true_false",
+    "question": "Todos los protocolos de red son compatibles con NAT.",
+    "answerBoolean": false,
+    "answerString": "",
+    "explanation": "Protocolos como FTP, SIP o IPsec pueden tener problemas sin NAT traversal específico.",
+    "options": []
+  },
+  {
+    "id": 96,
+    "type": "true_false",
+    "question": "En Hide.me proxy, es recomendable marcar 'remover' en objetos y scripts para mayor privacidad.",
+    "answerBoolean": true,
+    "answerString": "",
+    "explanation": "Eliminar objetos/scripts reduce huellas digitales y previene ejecución de código malicioso.",
+    "options": []
+  },
+  {
+    "id": 97,
+    "type": "true_false",
+    "question": "Las cookies pueden rastrearte incluso después de usar un proxy.",
+    "answerBoolean": true,
+    "answerString": "",
+    "explanation": "Las cookies almacenadas localmente permiten seguimiento entre sesiones si no se eliminan.",
+    "options": []
+  },
+  {
+    "id": 98,
+    "type": "true_false",
+    "question": "Para configurar un proxy en Windows 10, se debe ir a Configuración → Red e Internet → Proxy.",
+    "answerBoolean": true,
+    "answerString": "",
+    "explanation": "Esta es la ruta estándar para configurar proxies manuales/automáticos en Windows 10.",
+    "options": []
+  },
+  {
+    "id": 99,
+    "type": "true_false",
+    "question": "Algunas empresas VPN ofrecen listas de proxys gratuitas como parte de sus servicios.",
+    "answerBoolean": true,
+    "answerString": "",
+    "explanation": "Proveedores como NordVPN o ExpressVPN incluyen proxies gratuitos para navegación básica.",
+    "options": []
+  },
+  {
+    "id": 100,
+    "type": "true_false",
+    "question": "Un firewall garantiza protección 100% completa contra todos los tipos de ataques.",
+    "answerBoolean": false,
+    "answerString": "",
+    "explanation": "Ningún sistema es infalible; ataques de día cero o errores de configuración pueden eludirlo.",
+    "options": []
+  },
+  {
+    "id": 101,
+    "type": "multiple_choice",
+    "question": "¿Cuál es el rango total de bits reservados para direcciones IP en el diseño original de Internet?",
+    "answerBoolean": false,
+    "answerString": "c",
+    "explanation": "El diseño IPv4 original utiliza direcciones de 32 bits, permitiendo ~4.3 mil millones de direcciones únicas.",
+    "options": [
+      "a) 16 bits",
+      "b) 24 bits",
+      "c) 32 bits",
+      "d) 64 bits"
+    ]
+  },
+  {
+    "id": 102,
+    "type": "multiple_choice",
+    "question": "¿Qué tipo de direcciones utilizan las redes de ordenadores antes de conectarse a Internet mediante NAT?",
+    "answerBoolean": false,
+    "answerString": "b",
+    "explanation": "Las direcciones privadas (RFC 1918) como 192.168.x.x se usan internamente y son traducidas por NAT a IPs públicas.",
+    "options": [
+      "a) Direcciones IP públicas",
+      "b) Direcciones IP privadas",
+      "c) Direcciones MAC",
+      "d) Direcciones DNS"
+    ]
+  },
+  {
+    "id": 103,
+    "type": "multiple_choice",
+    "question": "En el firewall de Windows, ¿cuál es la diferencia entre 'Reglas de entrada' y 'Reglas de salida'?",
+    "answerBoolean": false,
+    "answerString": "b",
+    "explanation": "Las reglas de entrada filtran tráfico entrante (hacia el dispositivo), mientras las de salida controlan tráfico saliente (desde el dispositivo).",
+    "options": [
+      "a) No hay diferencia práctica",
+      "b) Entrada controla conexiones que llegan, salida controla conexiones que salen",
+      "c) Entrada es para red privada, salida para red pública",
+      "d) Entrada es automática, salida es manual"
+    ]
+  },
+  {
+    "id": 104,
+    "type": "multiple_choice",
+    "question": "¿Cuál es el principal beneficio de usar NAT con sobrecarga en hogares?",
+    "answerBoolean": false,
+    "answerString": "c",
+    "explanation": "NAT (PAT) permite que múltiples dispositivos compartan una sola IP pública, evitando costos adicionales por IPs extras.",
+    "options": [
+      "a) Mayor velocidad de conexión",
+      "b) Mejor calidad de video",
+      "c) Evitar contratar más de una dirección IP pública",
+      "d) Reducir el consumo eléctrico"
+    ]
+  },
+  {
+    "id": 105,
+    "type": "multiple_choice",
+    "question": "¿Qué información debe proporcionarse al configurar un proxy manualmente en Windows 10?",
+    "answerBoolean": false,
+    "answerString": "c",
+    "explanation": "La configuración básica requiere la dirección IP del servidor proxy y el puerto TCP asociado (ej: 192.168.1.10:8080).",
+    "options": [
+      "a) Solo la dirección IP del proxy",
+      "b) Solo el puerto del proxy",
+      "c) La dirección IP del proxy y su puerto",
+      "d) El nombre de usuario y contraseña del proxy"
+    ]
+  },
+  {
+    "id": 106,
+    "type": "multiple_choice",
+    "question": "¿Cuál es una característica distintiva de los firewalls comerciales vs. los gratuitos?",
+    "answerBoolean": false,
+    "answerString": "b",
+    "explanation": "Suelen incluir funciones avanzadas como IPS, filtrado de aplicaciones, VPN integrada y soporte técnico profesional.",
+    "options": [
+      "a) Los comerciales son más rápidos",
+      "b) Los comerciales incluyen protecciones extra y más control",
+      "c) Los comerciales no requieren configuración",
+      "d) Los comerciales funcionan solo en empresas"
+    ]
+  },
+  {
+    "id": 107,
+    "type": "multiple_choice",
+    "question": "¿Por qué es importante que el firewall bloquee el tráfico de salida?",
+    "answerBoolean": false,
+    "answerString": "b",
+    "explanation": "Previene que malware (como bots o spyware) envíe datos robados o establezca conexiones no autorizadas hacia servidores externos.",
+    "options": [
+      "a) Para ahorrar ancho de banda",
+      "b) Para evitar que virus se esparzan desde tu computadora",
+      "c) Para acelerar la conexión",
+      "d) Para reducir el consumo de energía"
+    ]
+  },
+  {
+    "id": 108,
+    "type": "multiple_choice",
+    "question": "¿Cuál es la principal función de los 'agujeros' de seguridad que buscan los piratas informáticos?",
+    "answerBoolean": false,
+    "answerString": "b",
+    "explanation": "Explotan vulnerabilidades para comprometer sistemas, robar información o instalar malware.",
+    "options": [
+      "a) Acelerar su conexión",
+      "b) Acceder a los datos de la computadora víctima",
+      "c) Ocultar su identidad",
+      "d) Mejorar su software"
+    ]
+  },
+  {
+    "id": 109,
+    "type": "multiple_choice",
+    "question": "¿Qué sucede cuando un router NAT recibe información en un puerto elegido al azar?",
+    "answerBoolean": false,
+    "answerString": "c",
+    "explanation": "Consulta su tabla NAT para reenviar el paquete al dispositivo interno que inició la conexión usando el mapeo puerto/IP.",
+    "options": [
+      "a) La rechaza automáticamente",
+      "b) La envía a todas las máquinas de la red",
+      "c) Consulta la tabla y la reenvía a la IP privada y puerto correspondientes",
+      "d) La almacena para procesamiento posterior"
+    ]
+  },
+  {
+    "id": 110,
+    "type": "multiple_choice",
+    "question": "¿Cuál es una ventaja de seguridad principal que ofrece NAT?",
+    "answerBoolean": false,
+    "answerString": "b",
+    "explanation": "Oculta dispositivos internos al exterior, ya que solo la IP pública del router es visible, actuando como escudo básico contra escaneos.",
+    "options": [
+      "a) Cifra toda la comunicación",
+      "b) Las máquinas internas no son visibles desde el exterior",
+      "c) Bloquea todos los virus",
+      "d) Acelera las conexiones"
+    ]
+  },
+  {
+    "id": 111,
+    "type": "multiple_choice",
+    "question": "¿Qué tipo de aplicaciones pueden tener problemas de compatibilidad con NAT?",
+    "answerBoolean": false,
+    "answerString": "b",
+    "explanation": "Aplicaciones como FTP o SIP que incluyen información de dirección/puerto en la carga útil requieren técnicas especiales (ALG) para funcionar con NAT.",
+    "options": [
+      "a) Navegadores web",
+      "b) Aplicaciones que introducen el puerto de origen en la zona de datos",
+      "c) Programas de procesamiento de texto",
+      "d) Reproductores multimedia"
+    ]
+  },
+  {
+    "id": 112,
+    "type": "multiple_choice",
+    "question": "¿Cuál es el propósito de la opción 'Más opciones' en Hide.me proxy?",
+    "answerBoolean": false,
+    "answerString": "b",
+    "explanation": "Permite ajustes avanzados como bloqueo de cookies, scripts y objetos para mejorar la privacidad y seguridad durante la navegación.",
+    "options": [
+      "a) Cambiar el idioma de la interfaz",
+      "b) Optimizar la privacidad del usuario",
+      "c) Acelerar la conexión",
+      "d) Seleccionar el navegador a usar"
+    ]
+  },
+  {
+    "id": 113,
+    "type": "multiple_choice",
+    "question": "¿Por qué algunas páginas web pueden no funcionar correctamente al usar VPNBook?",
+    "answerBoolean": false,
+    "answerString": "b",
+    "explanation": "El bloqueo automático de scripts y elementos dinámicos puede romper funcionalidades esenciales de sitios web modernos.",
+    "options": [
+      "a) Porque es un servicio de pago",
+      "b) Porque bloquea automáticamente algunos scripts",
+      "c) Porque solo funciona en ciertos países",
+      "d) Porque requiere registro"
+    ]
+  },
+  {
+    "id": 114,
+    "type": "multiple_choice",
+    "question": "¿Cuál es la principal diferencia entre un 'Desktop firewall' y un firewall de red?",
+    "answerBoolean": false,
+    "answerString": "a",
+    "explanation": "Los firewalls de escritorio (ej: Windows Firewall) protegen solo el dispositivo local, mientras los de red (ej: en routers) protegen todos los dispositivos de la LAN.",
+    "options": [
+      "a) El desktop protege una sola computadora, el de red protege toda la red",
+      "b) El desktop es más caro",
+      "c) El desktop es más difícil de configurar",
+      "d) No hay diferencia"
+    ]
+  },
+  {
+    "id": 115,
+    "type": "multiple_choice",
+    "question": "¿Qué significa que un firewall puede 'redireccionar un pedido de conexión sin avisar al emisor'?",
+    "answerBoolean": false,
+    "answerString": "c",
+    "explanation": "El firewall descarta paquetes no permitidos sin enviar respuesta (Drop), lo que mejora seguridad pero puede causar problemas de diagnóstico.",
+    "options": [
+      "a) Que acepta la conexión silenciosamente",
+      "b) Que reenvía la conexión a otro servidor",
+      "c) Que descarta la conexión sin notificar al origen (Drop)",
+      "d) Que registra la conexión en un log"
+    ]
+  },
+  {
+    "id": 116,
+    "type": "true_false",
+    "question": "Los worms pueden tomar control de tu computadora después de infectarla.",
+    "answerBoolean": true,
+    "answerString": "",
+    "explanation": "Gusanos como Conficker pueden ejecutar código arbitrario, robar datos y convertir dispositivos en bots para ataques DDoS.",
+    "options": []
+  },
+  {
+    "id": 117,
+    "type": "true_false",
+    "question": "Un firewall es la única protección necesaria contra todas las amenazas de Internet.",
+    "answerBoolean": false,
+    "answerString": "",
+    "explanation": "Se requiere enfoque en capas: antivirus, actualizaciones, educación en phishing y copias de seguridad para una protección completa.",
+    "options": []
+  },
+  {
+    "id": 118,
+    "type": "true_false",
+    "question": "Windows 7, Windows 8 y Windows 10 incluyen Windows Firewall por defecto.",
+    "answerBoolean": true,
+    "answerString": "",
+    "explanation": "Microsoft incluye su firewall básico activado por defecto en todas las versiones modernas de Windows desde XP SP2.",
+    "options": []
+  },
+  {
+    "id": 119,
+    "type": "true_false",
+    "question": "El costo de un router con firewall es significativamente mayor que uno sin firewall.",
+    "answerBoolean": false,
+    "answerString": "",
+    "explanation": "Funciones firewall básicas (SPI, NAT filtering) son estándar en routers domésticos sin incremento de precio relevante.",
+    "options": []
+  },
+  {
+    "id": 120,
+    "type": "true_false",
+    "question": "Es posible tener conocimientos limitados de seguridad y usar simultáneamente firewall por hardware y software.",
+    "answerBoolean": false,
+    "answerString": "",
+    "explanation": "Requiere comprensión de reglas, conflictos de puertos y excepciones para evitar bloqueos no intencionales o falsa seguridad.",
+    "options": []
+  },
+  {
+    "id": 121,
+    "type": "true_false",
+    "question": "Todos los proxys gratuitos en Internet son seguros de usar.",
+    "answerBoolean": false,
+    "answerString": "",
+    "explanation": "Muchos proxies gratuitos registran datos, inyectan anuncios o malware, o roban credenciales. Se recomienda investigar su reputación.",
+    "options": []
+  },
+  {
+    "id": 122,
+    "type": "true_false",
+    "question": "Las empresas de seguridad que ofrecen VPN suelen también ofrecer proxys gratuitos como demostración.",
+    "answerBoolean": true,
+    "answerString": "",
+    "explanation": "Proveedores como NordVPN y CyberGhost ofrecen proxies web gratuitos como muestra de sus servicios completos de VPN.",
+    "options": []
+  },
+  {
+    "id": 123,
+    "type": "true_false",
+    "question": "Un proxy puede hacer que parezcas un internauta de otro país.",
+    "answerBoolean": true,
+    "answerString": "",
+    "explanation": "Al enrutar el tráfico a través de servidores en otros países, los proxies ocultan tu IP real y muestran la ubicación del servidor proxy.",
+    "options": []
+  },
+  {
+    "id": 124,
+    "type": "true_false",
+    "question": "NAT fue diseñado como la solución definitiva al problema de direcciones IP.",
+    "answerBoolean": false,
+    "answerString": "",
+    "explanation": "Fue concebido como medida temporal (RFC 1631) para extender la vida de IPv4, no como reemplazo de IPv6.",
+    "options": []
+  },
+  {
+    "id": 125,
+    "type": "true_false",
+    "question": "En NAT, cada vez que un host requiere conexión a Internet, puede recibir una IP pública diferente.",
+    "answerBoolean": true,
+    "answerString": "",
+    "explanation": "En NAT dinámica, las IPs públicas se asignan bajo demanda de un grupo disponible, pudiendo variar entre conexiones.",
+    "options": []
+  },
+  {
+    "id": 126,
+    "type": "true_false",
+    "question": "Los checksums TCP y UDP no necesitan ser recalculados en NAT.",
+    "answerBoolean": false,
+    "answerString": "",
+    "explanation": "Deben recalcularse porque incluyen cabeceras IP y puertos en su cálculo, que cambian durante la traducción NAT.",
+    "options": []
+  },
+  {
+    "id": 127,
+    "type": "true_false",
+    "question": "Windows Firewall permite configurar direcciones IP específicas para las conexiones entrantes.",
+    "answerBoolean": true,
+    "answerString": "",
+    "explanation": "En reglas avanzadas, se puede restringir por IP origen/destino en las pestañas 'Ámbito' y 'Avanzado'.",
+    "options": []
+  },
+  {
+    "id": 128,
+    "type": "true_false",
+    "question": "Las conexiones IPsec son compatibles con las versiones modernas de Windows Firewall.",
+    "answerBoolean": true,
+    "answerString": "",
+    "explanation": "Desde Windows Vista/Server 2008, el firewall integra políticas IPsec para autenticación y cifrado de tráfico.",
+    "options": []
+  },
+  {
+    "id": 129,
+    "type": "true_false",
+    "question": "Un proxy elimina automáticamente todos los identificadores que puedan revelar tu identidad.",
+    "answerBoolean": false,
+    "answerString": "",
+    "explanation": "No remueve huellas como cookies, User-Agent, WebRTC o canvas fingerprinting. Solo enmascara la dirección IP.",
+    "options": []
+  },
+  {
+    "id": 130,
+    "type": "true_false",
+    "question": "Es recomendable usar un proxy de una empresa desconocida que muestra mucha publicidad.",
+    "answerBoolean": false,
+    "answerString": "",
+    "explanation": "Los proxies con exceso de anuncios suelen inyectar malware o vender datos. Se prefieren servicios con políticas de privacidad transparentes.",
+    "options": []
+  },
+  {
+    "id": 131,
+    "type": "true_false",
+    "question": "El protocolo IPsec puede ser especificado como requisito para conexiones entrantes en Windows Firewall.",
+    "answerBoolean": true,
+    "answerString": "",
+    "explanation": "Windows Firewall permite configurar reglas que requieran IPsec para autenticación y cifrado en conexiones entrantes.",
+    "options": []
+  },
+  {
+    "id": 132,
+    "type": "true_false",
+    "question": "La metodología de 'barrer la red' consiste en enviar paquetes de datos de manera aleatoria.",
+    "answerBoolean": true,
+    "answerString": "",
+    "explanation": "Los escaneos de red (como ICMP sweep) envían paquetes secuenciales/aleatorios para descubrir hosts activos en una red.",
+    "options": []
+  },
+  {
+    "id": 133,
+    "type": "true_false",
+    "question": "Una computadora que cambia frecuentemente su dirección IP tiene menor riesgo de ser atacada.",
+    "answerBoolean": true,
+    "answerString": "",
+    "explanation": "La rotación de IPs dificulta el seguimiento y ataque dirigido, aunque no elimina vulnerabilidades de software.",
+    "options": []
+  },
+  {
+    "id": 134,
+    "type": "true_false",
+    "question": "El firewall puede actuar como intermediario entre múltiples redes externas.",
+    "answerBoolean": true,
+    "answerString": "",
+    "explanation": "Firewalls empresariales gestionan tráfico entre múltiples interfaces (WAN, DMZ, LAN) con políticas independientes.",
+    "options": []
+  },
+  {
+    "id": 135,
+    "type": "true_false",
+    "question": "La política de seguridad más estricta permite solo comunicaciones autorizadas explícitamente.",
+    "answerBoolean": true,
+    "answerString": "",
+    "explanation": "Política 'denegar todo, permitir excepciones' es el estándar de máxima seguridad en administración de firewalls.",
+    "options": []
+  },
+  {
+    "id": 136,
+    "type": "multiple_choice",
+    "question": "¿Cuál es el orden correcto de pasos para abrir puertos en Windows Firewall?",
+    "answerBoolean": false,
+    "answerString": "c",
+    "explanation": "La ruta completa implica acceder a Firewall con Seguridad Avanzada desde Panel de Control > Sistema y Seguridad.",
+    "options": [
+      "a) Panel de Control → Firewall → Nueva regla → Puertos",
+      "b) Configuración → Red → Firewall → Puertos",
+      "c) Panel de Control → Sistema y Seguridad → Firewall → Configuración Avanzada → Reglas de entrada → Nueva regla → Puertos",
+      "d) Inicio → Firewall → Configuración → Puertos"
+    ]
+  },
+  {
+    "id": 137,
+    "type": "multiple_choice",
+    "question": "¿Qué información NO se requiere al crear una nueva regla de puerto en Windows Firewall?",
+    "answerBoolean": false,
+    "answerString": "d",
+    "explanation": "La velocidad de conexión no es parámetro configurable; las reglas se basan en puertos, protocolos, perfiles de red y direcciones IP.",
+    "options": [
+      "a) Nombre del perfil",
+      "b) Tipo de red donde aplicar la regla",
+      "c) Número de puerto a abrir",
+      "d) Velocidad de conexión deseada"
+    ]
+  },
+  {
+    "id": 138,
+    "type": "multiple_choice",
+    "question": "¿Cuál es la principal desventaja de dar 'acceso total' a una aplicación en el firewall?",
+    "answerBoolean": false,
+    "answerString": "b",
+    "explanation": "Permitir toda comunicación sin restricciones aumenta la superficie de ataque y expone a vulnerabilidades en la aplicación.",
+    "options": [
+      "a) Consume más recursos",
+      "b) Es menos seguro que abrir solo puertos específicos",
+      "c) Es más lento",
+      "d) Requiere reiniciar el sistema"
+    ]
+  },
+  {
+    "id": 139,
+    "type": "multiple_choice",
+    "question": "¿Qué tipo de programas comúnmente requieren configuración especial de puertos?",
+    "answerBoolean": false,
+    "answerString": "c",
+    "explanation": "Juegos multijugador, torrents y VoIP necesitan puertos específicos abiertos para conexiones entrantes/salientes.",
+    "options": [
+      "a) Calculadoras y editores de texto",
+      "b) Navegadores web estándar",
+      "c) Juegos online y aplicaciones P2P",
+      "d) Reproductores de música"
+    ]
+  },
+  {
+    "id": 140,
+    "type": "multiple_choice",
+    "question": "¿Cuál es la función principal de los puertos en las comunicaciones de red?",
+    "answerBoolean": false,
+    "answerString": "c",
+    "explanation": "Los puertos (0-65535) permiten multiplexar conexiones, dirigiendo tráfico a servicios específicos en un mismo dispositivo.",
+    "options": [
+      "a) Cifrar los datos",
+      "b) Comprimir la información",
+      "c) Permitir que la PC interactúe con el exterior",
+      "d) Acelerar las transferencias"
+    ]
+  },
+  {
+    "id": 141,
+    "type": "multiple_choice",
+    "question": "¿Qué campo se debe completar en Hide.me para elegir el país de origen aparente?",
+    "answerBoolean": false,
+    "answerString": "b",
+    "explanation": "La opción 'Locación Proxy' permite seleccionar servidores en diferentes países para enmascarar la ubicación real.",
+    "options": [
+      "a) Más opciones",
+      "b) Locación Proxy",
+      "c) Configuración de red",
+      "d) Servidor de destino"
+    ]
+  },
+  {
+    "id": 142,
+    "type": "multiple_choice",
+    "question": "¿Por qué es importante deshabilitar las cookies al usar un proxy para privacidad?",
+    "answerBoolean": false,
+    "answerString": "b",
+    "explanation": "Las cookies almacenadas pueden mantener identificadores únicos que permiten rastreo entre sesiones incluso con proxy activo.",
+    "options": [
+      "a) Aceleran la navegación",
+      "b) Pueden rastrearte incluso después de usar el proxy",
+      "c) Consumen ancho de banda",
+      "d) Causan errores en las páginas"
+    ]
+  },
+  {
+    "id": 143,
+    "type": "multiple_choice",
+    "question": "¿Cuál es la característica principal de VPNBook comparado con Hide.me?",
+    "answerBoolean": false,
+    "answerString": "b",
+    "explanation": "VPNBook ofrece una interfaz minimalista sin opciones avanzadas, enfocada en usuarios que buscan anonimato básico sin configuración.",
+    "options": [
+      "a) Es más rápido",
+      "b) Simplifica al máximo su mecánica",
+      "c) Permite más opciones de configuración",
+      "d) Es de pago"
+    ]
+  },
+  {
+    "id": 144,
+    "type": "multiple_choice",
+    "question": "¿Dónde se encuentra la opción 'Usar servidor proxy' en Windows 10?",
+    "answerBoolean": false,
+    "answerString": "b",
+    "explanation": "Esta ruta estándar (Configuración → Red e Internet → Proxy) permite configurar proxies manuales o automáticos en Windows 10.",
+    "options": [
+      "a) Panel de Control → Red",
+      "b) Configuración → Red e Internet → Proxy",
+      "c) Sistema → Configuración de red",
+      "d) Herramientas → Opciones de Internet"
+    ]
+  },
+  {
+    "id": 145,
+    "type": "multiple_choice",
+    "question": "¿Qué permite especificar el cuadro de exclusiones al configurar un proxy en Windows 10?",
+    "answerBoolean": false,
+    "answerString": "a",
+    "explanation": "Las exclusiones definen direcciones locales o sitios de confianza que se conectan directamente sin pasar por el proxy.",
+    "options": [
+      "a) Las páginas que no deben usar el proxy",
+      "b) Los puertos a bloquear",
+      "c) Los protocolos permitidos",
+      "d) Las horas de funcionamiento"
+    ]
+  },
+  {
+    "id": 146,
+    "type": "multiple_choice",
+    "question": "¿Cuál es el beneficio económico principal de NAT para las empresas?",
+    "answerBoolean": false,
+    "answerString": "b",
+    "explanation": "Reduce costos al permitir que cientos de dispositivos compartan una sola IP pública, evitando pagos por IPs adicionales.",
+    "options": [
+      "a) Reduce el costo de hardware",
+      "b) Solo necesitan contratar una dirección IP pública en lugar de una por máquina",
+      "c) Disminuye el consumo eléctrico",
+      "d) Elimina la necesidad de mantenimiento"
+    ]
+  },
+  {
+    "id": 147,
+    "type": "multiple_choice",
+    "question": "¿Qué sucede en NAT cuando hay solapamiento de direcciones?",
+    "answerBoolean": false,
+    "answerString": "b",
+    "explanation": "El router detecta conflictos (ej: IPs privadas duplicadas) y asigna direcciones alternativas para mantener la conectividad.",
+    "options": [
+      "a) Se bloquean todas las conexiones",
+      "b) El router reemplaza la dirección IP conflictiva por otra",
+      "c) Se reinicia automáticamente el sistema",
+      "d) Se duplican las conexiones"
+    ]
+  },
+  {
+    "id": 148,
+    "type": "multiple_choice",
+    "question": "¿Cuál es una limitación importante de NAT en términos de aplicaciones?",
+    "answerBoolean": false,
+    "answerString": "b",
+    "explanation": "Protocolos como FTP o VoIP que incluyen direcciones IP en su payload requieren ALG (Application Layer Gateway) para funcionar correctamente.",
+    "options": [
+      "a) Solo funciona con navegadores web",
+      "b) No es compatible con aplicaciones que incluyen información de puerto en los datos",
+      "c) Requiere software especial en cada aplicación",
+      "d) Solo soporta aplicaciones gratuitas"
+    ]
+  },
+  {
+    "id": 149,
+    "type": "multiple_choice",
+    "question": "¿Por qué se dice que NAT es 'solo un parche' y no una solución?",
+    "answerBoolean": false,
+    "answerString": "a",
+    "explanation": "Retrasó el agotamiento de IPv4 pero no resuelve problemas de escalabilidad, end-to-end connectivity ni reemplaza a IPv6.",
+    "options": [
+      "a) Porque es temporal y no resuelve el problema fundamental de escasez de IPv4",
+      "b) Porque es muy caro de implementar",
+      "c) Porque solo funciona en redes pequeñas",
+      "d) Porque requiere actualizaciones constantes"
+    ]
+  },
+  {
+    "id": 150,
+    "type": "multiple_choice",
+    "question": "¿Cuál es la ventaja principal de usar listas de proxys verificadas como las de HideMy.name?",
+    "answerBoolean": false,
+    "answerString": "c",
+    "explanation": "Verifican que los proxies no registren actividad, inyecten ads/malware o roben credenciales, reduciendo riesgos de seguridad.",
+    "options": [
+      "a) Son más rápidas",
+      "b) Son gratuitas",
+      "c) Han sido revisadas para asegurar que son seguras",
+      "d) Funcionan con todos los navegadores"
+    ]
+  }
+
+]

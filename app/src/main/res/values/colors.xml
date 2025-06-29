@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background">#F5F5F5</color>
+    <color name="text_dark">#333333</color>
+    <color name="button_submit">#28A745</color>
+    <color name="button_restart">#007BFF</color>
+    <color name="correct">#28A745</color>
+    <color name="incorrect">#DC3545</color>
+
+    <color name="your_selected_item_color">#FF0000</color> <!-- Red example -->
+    <color name="your_unselected_item_color">#000000</color> <!-- Black example -->
+    <color name="your_background_color">#FFC107</color>
+
+
+    <color name="colorPrimary">#1976D2</color> <!-- Azul intenso -->
+    <color name="colorPrimaryVariant">#1565C0</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorSecondary">#FF9800</color> <!-- Naranja vibrante -->
+    <color name="colorSecondaryVariant">#F57C00</color>
+    <color name="colorOnSecondary">#000000</color>
+    <color name="colorOnSurface">#212121</color>
+    <color name="colorAccent">#4CAF50</color> <!-- Verde para acentos -->
+
+    <color name="colorPrimary1">#1976D2</color> <!-- Azul intenso -->
+    <color name="colorPrimaryVariant1">#1565C0</color>
+    <color name="colorOnPrimary1">#FFFFFF</color>
+    <color name="colorSecondary1">#FF9800</color> <!-- Naranja vibrante -->
+    <color name="colorSecondaryVariant1">#F57C00</color>
+    <color name="colorOnSecondary1">#000000</color>
+    <color name="colorOnSurface1">#212121</color>
+    <color name="colorAccent1">#4CAF50</color>
+
+</resources>

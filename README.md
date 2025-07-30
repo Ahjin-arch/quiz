@@ -1,7 +1,7 @@
 📱 Quiz App — Android
 Aplicación personal de cuestionarios para estudiar preguntas de selección múltiple o falso/verdadero de manera dinámica y eficiente.
 <hr>
-🚀 Funcionalidades\
+🚀 Funcionalidades<br/>
 📄 Cambia fácilmente el archivo .json para personalizar tus preguntas.
 
 🔁 Preguntas aleatorias sin repeticiones hasta que se agoten.
@@ -10,15 +10,13 @@ Aplicación personal de cuestionarios para estudiar preguntas de selección múl
 
 📊 Historial de preguntas respondidas.
 
-📤 Exportación de historial en .txt para revisión futura.\
-♻️ Reinicio de preguntas disponible una vez completadas.\
+📤 Exportación de historial en .txt para revisión futura.<br/>
+♻️ Reinicio de preguntas disponible una vez completadas.<br/>
 <hr>
-🧪 Cómo usar\
-- Edita el archivo .json con tus preguntas.
-
-- Ejecuta la app en Android.
-
-- ¡Responde y estudia!
+🧪 Cómo usar<br/>
+ - Edita el archivo .json con tus preguntas.<br/>
+ - Ejecuta la app en Android.<br/>
+ - ¡Responde y estudia!<br/>
 
 <div align="center"> <h4>Inicio de la aplicación</h4> <img src="./Screenshot_20250729_203755.png" alt="Inicio" width="300" /> <img src="./Screenshot_20250729_203808.png" alt="Seleccion de respuestas" width="300" /> </div>
 
